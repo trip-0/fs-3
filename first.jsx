@@ -1,4 +1,6 @@
-import Posts from "./second";
+// first.jsx
+import React from "react";
+import "./first.css";
 
 const Post = ({ post: { title, body, imgUrl, author }, index }) => {
   return (
